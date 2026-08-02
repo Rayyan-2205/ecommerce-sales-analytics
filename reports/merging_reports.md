@@ -46,9 +46,17 @@ Attach purchased product information to each customer order.
 
 ### Observation
 
-- The number of rows increased because one order can contain multiple products.
-- Each row in the merged dataset now represents a single purchased item within an order.
-- Customer information is repeated for each item belonging to the same order, which is expected in a one-to-many relationship.
+- The number of rows increased because one order can contain multiple purchased items.
+- The number of unique orders decreased from **99,441** to **98,666**.
+- Investigation showed that **775 orders** had no matching records in the `order_items` dataset and were therefore excluded by the inner join.
+- Most excluded orders belonged to the following statuses:
+  - **Unavailable:** 603
+  - **Canceled:** 164
+  - **Created:** 5
+  - **Invoiced:** 2
+  - **Shipped:** 1
+- These excluded orders do not represent completed purchases, making the inner join appropriate for sales analysis.
+
 
 
 ## Merge 3: Customer Orders + Order Items + Products
