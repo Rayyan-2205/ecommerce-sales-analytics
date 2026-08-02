@@ -37,3 +37,15 @@ Category pricing also varies significantly. Premium categories such as **PCs**, 
 Product characteristics reveal clear differences across categories. Industrial, automotive, furniture, and baby products tend to be significantly heavier than products in many other categories, which may lead to higher storage and shipping costs. In addition, categories such as **DVDs & Blu-ray**, **Automotive**, and **Sports & Leisure** contain some of the longest product descriptions, suggesting that sellers provide more detailed information for products that may require additional customer explanation before purchase.
 
 Overall, the analysis indicates that product strategy should balance **high-volume categories**, which drive consistent sales, with **high-value categories**, which generate stronger revenue per sale. Managing inventory, pricing, and marketing differently for these groups could improve both sales performance and profitability.
+
+---
+
+## 4. Customer Analysis
+
+Customer purchasing behavior indicates that the business is primarily driven by **one-time buyers**. The average customer places approximately **1.03 orders**, showing that repeat purchases are relatively uncommon. While a small number of customers have placed multiple orders, the majority complete only a single purchase before leaving the platform. This highlights an opportunity to improve customer retention through loyalty programs, personalized recommendations, and targeted marketing campaigns.
+
+Geographically, **São Paulo (SP)** has the largest customer base by a considerable margin, followed by **Rio de Janeiro (RJ)** and **Minas Gerais (MG)**. The concentration of customers in these states aligns closely with the revenue analysis, confirming that Brazil's southeastern region represents the company's strongest market in both customer acquisition and sales.
+
+Analysis of customer spending reveals that a small group of customers contributes significantly more revenue than the average customer. These high-value customers represent an important segment for premium services, exclusive promotions, and long-term retention strategies.
+
+Interestingly, states with the highest **average customer spending** are not the same states with the largest customer populations. While São Paulo generates the highest total revenue because of its large customer base, smaller states such as **Paraíba (PB)**, **Alagoas (AL)**, and **Acre (AC)** show higher average spending per customer. This suggests that customer value varies across regions and that future marketing strategies could focus not only on expanding large markets but also on increasing engagement in high-value regions.
