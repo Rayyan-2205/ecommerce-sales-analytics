@@ -49,3 +49,17 @@ Geographically, **São Paulo (SP)** has the largest customer base by a considera
 Analysis of customer spending reveals that a small group of customers contributes significantly more revenue than the average customer. These high-value customers represent an important segment for premium services, exclusive promotions, and long-term retention strategies.
 
 Interestingly, states with the highest **average customer spending** are not the same states with the largest customer populations. While São Paulo generates the highest total revenue because of its large customer base, smaller states such as **Paraíba (PB)**, **Alagoas (AL)**, and **Acre (AC)** show higher average spending per customer. This suggests that customer value varies across regions and that future marketing strategies could focus not only on expanding large markets but also on increasing engagement in high-value regions.
+
+---
+
+## 5. Order & Time Analysis
+
+Order activity shows clear seasonal patterns throughout the year. Sales gradually increased during the first half of the year, reaching their highest levels in **August**, with **May** and **July** also recording strong performance. A noticeable decline in both orders and revenue occurred during **September** and **October**, suggesting a seasonal slowdown in customer demand. Understanding these monthly trends can help the business improve inventory planning, marketing campaigns, and sales forecasting.
+
+Weekly purchasing behavior indicates that customers are most active at the beginning of the week. **Monday**, **Tuesday**, and **Wednesday** consistently record the highest number of completed orders, while **Saturday** and **Sunday** experience lower purchasing activity. This pattern suggests that customers are more likely to shop during weekdays than on weekends.
+
+Customer activity is also concentrated during normal business hours. The highest order volumes occur between **10 AM and 5 PM**, with activity peaking during the afternoon. Order volume decreases significantly during late-night and early-morning hours, reflecting typical consumer purchasing behavior.
+
+Year-over-year analysis demonstrates strong business growth. The number of completed orders increased substantially from **2017** to **2018**, indicating continued expansion of the platform and increasing customer adoption. The relatively small number of orders in **2016** reflects the early stage of business operations rather than a decline in performance.
+
+Operational performance appears to be highly efficient. Approximately **97.8%** of all analyzed orders were successfully delivered, while canceled, unavailable, processing, and invoiced orders represent only a small fraction of total orders. This high delivery completion rate indicates a reliable order fulfillment process and strong operational stability.
