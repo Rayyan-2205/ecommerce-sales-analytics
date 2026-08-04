@@ -20,6 +20,7 @@
 - These rows will be retained because removing them would exclude valid sales records.
 - Missing categories will be treated as "Unknown" during category-based analysis if needed.
 
+---
 
 ## Customers Dataset
 
@@ -55,3 +56,13 @@ The repeated `customer_unique_id` values represent returning customers. Each pur
 - No values were imputed.
 - Repeated `order_id`, `product_id`, and `order_item_id` values are expected and represent the structure of order-item relationships.
 - The dataset is considered clean and ready for merging.
+
+---
+
+## Shipping Dataset 
+
+### Shipping Time Data Quality
+
+During the delivery analysis, **1,551 records** (approximately **1.4%** of the dataset) exhibited **negative shipping times**, where the `order_delivered_carrier_date` occurred **before** the `order_approved_at` timestamp. Such values are logically inconsistent and are most likely the result of timestamp recording errors or data entry issues.
+
+To ensure accurate shipping-time analysis, these records were **excluded only from shipping-time calculations** while being **retained in the main analytical dataset** for all other analyses.

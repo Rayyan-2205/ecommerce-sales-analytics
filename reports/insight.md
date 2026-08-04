@@ -63,3 +63,19 @@ Customer activity is also concentrated during normal business hours. The highest
 Year-over-year analysis demonstrates strong business growth. The number of completed orders increased substantially from **2017** to **2018**, indicating continued expansion of the platform and increasing customer adoption. The relatively small number of orders in **2016** reflects the early stage of business operations rather than a decline in performance.
 
 Operational performance appears to be highly efficient. Approximately **97.8%** of all analyzed orders were successfully delivered, while canceled, unavailable, processing, and invoiced orders represent only a small fraction of total orders. This high delivery completion rate indicates a reliable order fulfillment process and strong operational stability.
+
+---
+
+## 6. Delivery Analysis
+
+The delivery process demonstrates strong operational performance. Completed orders took an average of **12 days** to reach customers, with half of all deliveries being completed within **10 days**. Although a few deliveries required significantly longer times, these were isolated cases and did not represent the overall delivery performance.
+
+Order approval was generally completed very quickly. Most orders were approved within a few hours of purchase, with an average approval time of **10.58 hours**, indicating an efficient order processing system.
+
+Analysis of shipping times identified **1,551 records (approximately 1.4% of the dataset)** where the carrier pickup timestamp occurred before the recorded approval timestamp. Since this sequence is logically impossible, these records were identified as data quality issues, most likely caused by timestamp recording inconsistencies. To ensure accurate shipping performance metrics, these anomalous records were excluded only from the shipping time analysis while remaining in the main dataset.
+
+Customer delivery experience was highly positive. Out of all delivered orders, **101,481** were delivered on or before the estimated delivery date, while only **8,715** orders arrived later than expected. This indicates that the company consistently meets its delivery commitments and maintains a reliable logistics network.
+
+Regional differences in delivery performance were also observed. Some states consistently recorded faster deliveries, whereas a few states experienced considerably longer delivery times. These variations may be influenced by geographic distance, transportation infrastructure, or warehouse distribution and could be investigated further to improve nationwide delivery efficiency.
+
+Overall, the delivery analysis highlights a well-performing logistics operation with fast order processing, high on-time delivery performance, and only a small number of data quality inconsistencies that were carefully investigated and handled during the analysis.
